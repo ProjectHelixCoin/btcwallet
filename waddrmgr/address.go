@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/phoreproject/btcd/btcec"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcutil/hdkeychain"
-	"github.com/phoreproject/btcwallet/internal/zero"
+	"github.com/projecthelixcoin/btcd/btcec"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcutil/hdkeychain"
+	"github.com/projecthelixcoin/btcwallet/internal/zero"
 )
 
 // ManagedAddress is an interface that provides acces to information regarding

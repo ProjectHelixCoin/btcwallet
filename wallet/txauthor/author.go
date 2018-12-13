@@ -8,14 +8,14 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/phoreproject/btcd/chaincfg"
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcd/wire"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcwallet/wallet/txrules"
+	"github.com/projecthelixcoin/btcd/chaincfg"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcd/wire"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcwallet/wallet/txrules"
 
-	h "github.com/phoreproject/btcwallet/internal/helpers"
-	"github.com/phoreproject/btcwallet/wallet/internal/txsizes"
+	h "github.com/projecthelixcoin/btcwallet/internal/helpers"
+	"github.com/projecthelixcoin/btcwallet/wallet/internal/txsizes"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

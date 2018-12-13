@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/phoreproject/btcd/btcec"
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcd/wire"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/wallet/txauthor"
-	"github.com/phoreproject/btcwallet/wtxmgr"
+	"github.com/projecthelixcoin/btcd/btcec"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcd/wire"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/wallet/txauthor"
+	"github.com/projecthelixcoin/btcwallet/wtxmgr"
 )
 
 // byAmount defines the methods needed to satisify sort.Interface to

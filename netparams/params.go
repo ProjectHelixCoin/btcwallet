@@ -4,7 +4,7 @@
 
 package netparams
 
-import "github.com/phoreproject/btcd/chaincfg"
+import "github.com/projecthelixcoin/btcd/chaincfg"
 
 // Params is used to group parameters for various networks such as the main
 // network and test networks.

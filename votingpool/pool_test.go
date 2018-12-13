@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/phoreproject/btcutil/hdkeychain"
-	vp "github.com/phoreproject/btcwallet/votingpool"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/walletdb"
-	_ "github.com/phoreproject/btcwallet/walletdb/bdb"
+	"github.com/projecthelixcoin/btcutil/hdkeychain"
+	vp "github.com/projecthelixcoin/btcwallet/votingpool"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
+	_ "github.com/projecthelixcoin/btcwallet/walletdb/bdb"
 )
 
 func TestLoadPoolAndDepositScript(t *testing.T) {

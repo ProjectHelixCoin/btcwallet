@@ -5,9 +5,9 @@
 package txsizes
 
 import (
-	"github.com/phoreproject/btcd/wire"
+	"github.com/projecthelixcoin/btcd/wire"
 
-	h "github.com/phoreproject/btcwallet/internal/helpers"
+	h "github.com/projecthelixcoin/btcwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

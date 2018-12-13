@@ -10,14 +10,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/phoreproject/btcd/chaincfg"
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcd/wire"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcutil/hdkeychain"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/walletdb"
-	"github.com/phoreproject/btcwallet/wtxmgr"
+	"github.com/projecthelixcoin/btcd/chaincfg"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcd/wire"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcutil/hdkeychain"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
+	"github.com/projecthelixcoin/btcwallet/wtxmgr"
 )
 
 // TestOutputSplittingNotEnoughInputs checks that an output will get split if we

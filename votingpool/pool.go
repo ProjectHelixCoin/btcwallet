@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcutil/hdkeychain"
-	"github.com/phoreproject/btcwallet/internal/zero"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/walletdb"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcutil/hdkeychain"
+	"github.com/projecthelixcoin/btcwallet/internal/zero"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
 )
 
 const (

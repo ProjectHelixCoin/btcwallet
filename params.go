@@ -4,6 +4,6 @@
 
 package main
 
-import "github.com/phoreproject/btcwallet/netparams"
+import "github.com/projecthelixcoin/btcwallet/netparams"
 
 var activeNet = &netparams.MainNetParams

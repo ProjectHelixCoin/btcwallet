@@ -5,10 +5,10 @@
 package wallet
 
 import (
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcwallet/chain"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/wtxmgr"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcwallet/chain"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/wtxmgr"
 )
 
 func (w *Wallet) handleChainNotifications() {

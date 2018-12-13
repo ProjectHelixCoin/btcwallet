@@ -1,8 +1,8 @@
-package: github.com/phoreproject/btcwallet
+package: github.com/projecthelixcoin/btcwallet
 import:
 - package: github.com/boltdb/bolt
   version: ^1.3.0
-- package: github.com/phoreproject/btcd
+- package: github.com/projecthelixcoin/btcd
   subpackages:
   - blockchain
   - btcec
@@ -13,7 +13,7 @@ import:
   - wire
 - package: github.com/btcsuite/btclog
 - package: github.com/btcsuite/btcrpcclient
-- package: github.com/phoreproject/btcutil
+- package: github.com/projecthelixcoin/btcutil
   subpackages:
   - hdkeychain
 - package: github.com/btcsuite/golangcrypto

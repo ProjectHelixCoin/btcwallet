@@ -14,11 +14,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcwallet/internal/cfgutil"
-	"github.com/phoreproject/btcwallet/internal/legacy/keystore"
-	"github.com/phoreproject/btcwallet/netparams"
-	"github.com/phoreproject/btcwallet/wallet"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcwallet/internal/cfgutil"
+	"github.com/projecthelixcoin/btcwallet/internal/legacy/keystore"
+	"github.com/projecthelixcoin/btcwallet/netparams"
+	"github.com/projecthelixcoin/btcwallet/wallet"
 	flags "github.com/jessevdk/go-flags"
 )
 

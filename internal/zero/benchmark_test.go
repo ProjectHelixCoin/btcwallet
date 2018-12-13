@@ -7,7 +7,7 @@ package zero_test
 import (
 	"testing"
 
-	. "github.com/phoreproject/btcwallet/internal/zero"
+	. "github.com/projecthelixcoin/btcwallet/internal/zero"
 )
 
 var (

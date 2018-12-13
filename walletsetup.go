@@ -10,16 +10,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/phoreproject/btcd/btcec"
-	"github.com/phoreproject/btcd/chaincfg"
-	"github.com/phoreproject/btcd/wire"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcwallet/internal/legacy/keystore"
-	"github.com/phoreproject/btcwallet/internal/prompt"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/wallet"
-	"github.com/phoreproject/btcwallet/walletdb"
-	_ "github.com/phoreproject/btcwallet/walletdb/bdb"
+	"github.com/projecthelixcoin/btcd/btcec"
+	"github.com/projecthelixcoin/btcd/chaincfg"
+	"github.com/projecthelixcoin/btcd/wire"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcwallet/internal/legacy/keystore"
+	"github.com/projecthelixcoin/btcwallet/internal/prompt"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/wallet"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
+	_ "github.com/projecthelixcoin/btcwallet/walletdb/bdb"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

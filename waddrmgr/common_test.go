@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/phoreproject/btcd/chaincfg"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/walletdb"
-	_ "github.com/phoreproject/btcwallet/walletdb/bdb"
+	"github.com/projecthelixcoin/btcd/chaincfg"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
+	_ "github.com/projecthelixcoin/btcwallet/walletdb/bdb"
 )
 
 var (

@@ -3,8 +3,8 @@ package txsizes_test
 import (
 	"testing"
 
-	"github.com/phoreproject/btcd/wire"
-	. "github.com/phoreproject/btcwallet/wallet/internal/txsizes"
+	"github.com/projecthelixcoin/btcd/wire"
+	. "github.com/projecthelixcoin/btcwallet/wallet/internal/txsizes"
 )
 
 const (

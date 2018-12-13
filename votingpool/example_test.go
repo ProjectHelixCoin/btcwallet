@@ -23,14 +23,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/phoreproject/btcd/chaincfg"
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcwallet/votingpool"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/walletdb"
-	_ "github.com/phoreproject/btcwallet/walletdb/bdb"
-	"github.com/phoreproject/btcwallet/wtxmgr"
+	"github.com/projecthelixcoin/btcd/chaincfg"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcwallet/votingpool"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
+	_ "github.com/projecthelixcoin/btcwallet/walletdb/bdb"
+	"github.com/projecthelixcoin/btcwallet/wtxmgr"
 )
 
 var (

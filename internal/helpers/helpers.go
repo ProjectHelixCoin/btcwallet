@@ -7,8 +7,8 @@
 package helpers
 
 import (
-	"github.com/phoreproject/btcd/wire"
-	"github.com/phoreproject/btcutil"
+	"github.com/projecthelixcoin/btcd/wire"
+	"github.com/projecthelixcoin/btcutil"
 )
 
 // SumOutputValues sums up the list of TxOuts and returns an Amount.

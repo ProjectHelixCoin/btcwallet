@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/phoreproject/btcd/chaincfg"
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcwallet/wtxmgr"
+	"github.com/projecthelixcoin/btcd/chaincfg"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcwallet/wtxmgr"
 )
 
 const eligibleInputMinConfirmations = 100

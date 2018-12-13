@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcwallet/walletdb"
-	_ "github.com/phoreproject/btcwallet/walletdb/bdb"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
+	_ "github.com/projecthelixcoin/btcwallet/walletdb/bdb"
 	"github.com/jessevdk/go-flags"
 )
 

@@ -7,12 +7,12 @@ package txauthor_test
 import (
 	"testing"
 
-	"github.com/phoreproject/btcd/wire"
-	"github.com/phoreproject/btcutil"
-	. "github.com/phoreproject/btcwallet/wallet/txauthor"
-	"github.com/phoreproject/btcwallet/wallet/txrules"
+	"github.com/projecthelixcoin/btcd/wire"
+	"github.com/projecthelixcoin/btcutil"
+	. "github.com/projecthelixcoin/btcwallet/wallet/txauthor"
+	"github.com/projecthelixcoin/btcwallet/wallet/txrules"
 
-	"github.com/phoreproject/btcwallet/wallet/internal/txsizes"
+	"github.com/projecthelixcoin/btcwallet/wallet/internal/txsizes"
 )
 
 func p2pkhOutputs(amounts ...btcutil.Amount) []*wire.TxOut {

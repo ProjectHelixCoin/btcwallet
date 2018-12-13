@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/phoreproject/btcwallet/chain"
-	"github.com/phoreproject/btcwallet/rpc/legacyrpc"
-	"github.com/phoreproject/btcwallet/wallet"
+	"github.com/projecthelixcoin/btcwallet/chain"
+	"github.com/projecthelixcoin/btcwallet/rpc/legacyrpc"
+	"github.com/projecthelixcoin/btcwallet/wallet"
 )
 
 var (

@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/phoreproject/btcwallet/blob/master/rpc/documentation/api.md
+//   https://github.com/projecthelixcoin/btcwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/phoreproject/btcwallet/blob/master/rpc/documentation/serverchanges.md
+//   https://github.com/projecthelixcoin/btcwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -25,20 +25,20 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/phoreproject/btcd/chaincfg/chainhash"
-	"github.com/phoreproject/btcd/txscript"
-	"github.com/phoreproject/btcd/wire"
+	"github.com/projecthelixcoin/btcd/chaincfg/chainhash"
+	"github.com/projecthelixcoin/btcd/txscript"
+	"github.com/projecthelixcoin/btcd/wire"
 	"github.com/btcsuite/btcrpcclient"
-	"github.com/phoreproject/btcutil"
-	"github.com/phoreproject/btcutil/hdkeychain"
-	"github.com/phoreproject/btcwallet/chain"
-	"github.com/phoreproject/btcwallet/internal/cfgutil"
-	"github.com/phoreproject/btcwallet/internal/zero"
-	"github.com/phoreproject/btcwallet/netparams"
-	pb "github.com/phoreproject/btcwallet/rpc/walletrpc"
-	"github.com/phoreproject/btcwallet/waddrmgr"
-	"github.com/phoreproject/btcwallet/wallet"
-	"github.com/phoreproject/btcwallet/walletdb"
+	"github.com/projecthelixcoin/btcutil"
+	"github.com/projecthelixcoin/btcutil/hdkeychain"
+	"github.com/projecthelixcoin/btcwallet/chain"
+	"github.com/projecthelixcoin/btcwallet/internal/cfgutil"
+	"github.com/projecthelixcoin/btcwallet/internal/zero"
+	"github.com/projecthelixcoin/btcwallet/netparams"
+	pb "github.com/projecthelixcoin/btcwallet/rpc/walletrpc"
+	"github.com/projecthelixcoin/btcwallet/waddrmgr"
+	"github.com/projecthelixcoin/btcwallet/wallet"
+	"github.com/projecthelixcoin/btcwallet/walletdb"
 )
 
 // Public API version constants
